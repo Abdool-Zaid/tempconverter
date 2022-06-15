@@ -1,6 +1,6 @@
 console.log("active");
 
-while (document.querySelectorAll("#Fahrenheit").value = !null) {
+while (document.querySelectorAll("#Fahrenheit").value !== null) {
     document.querySelectorAll(".toggle").classList.toggle("active");
 }
 function run() {
@@ -12,14 +12,14 @@ function run() {
   if ((answer.value = null)) {
     answer.innerHTML = "enter a value to start";
     console.log(" no values");
-} else {
-    if (Fahrenheit =!null) {
+}else if (Fahrenheit !==null) {
     celcius.innerHTML = ((Fahrenheit.value-32)*(5/9));
       console.log('conerted from Fahrenheit')
     }
   }
  
   console.log("convert=complete");
+
 }
 
 
