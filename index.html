@@ -10,12 +10,14 @@
   <body>
     <h1>because coexistance</h1>
     <div id="target">
-      <label for="farenheight">Farenheight</label>
-      <input type="text" name="farenheight" id="farenheight" class="answer" />
-      <label for="celcius">Celcius</label>
-      <input type="text" name="celcius" id="celcius" class="answer" />
-      <label for="kelvin">kelvin</label>
-      <input type="text" name="kelvin" id="kelvin" class="answer" />
+      <label for="Fahrenheit" onclick="run()" class="toggle">Fahrenheit</label>
+      <input type="number" name="Fahrenheit" id="Fahrenheit" class="answer" />
+      <label for="celcius" onclick="run()" class="toggle" id="celcius"
+        >Celcius</label
+      >
+      <input type="number" name="celcius" id="celcius" class="answer" />
+      <label for="kelvin" onclick="run()" class="toggle">kelvin</label>
+      <input type="number" name="kelvin" id="kelvin" class="answer" />
     </div>
     <script src="./scrypt.js"></script>
   </body>

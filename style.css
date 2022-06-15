@@ -32,8 +32,9 @@ body {
 }
 #target > input {
   height: var(--st);
-  
-  
+}
+.toggle.active{
+background-color: var(--sec);
 }
 
 @media screen and (max-width: 900px) {
