@@ -1,9 +1,8 @@
 console.log("active");
-// switch to do while loop
-//   if ((document.querySelectorAll("#Fahrenheit").value = !null)) {
-//     document.querySelectorAll(".toggle").classList.toggle("active");
-//   }
 
+while (document.querySelectorAll("#Fahrenheit").value = !null) {
+    document.querySelectorAll(".toggle").classList.toggle("active");
+}
 function run() {
   let celcius = document.querySelector("#celcius");
   let Fahrenheit = document.querySelector("#Fahrenheit");
