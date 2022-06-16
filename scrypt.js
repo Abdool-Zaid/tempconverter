@@ -16,12 +16,17 @@ function run() {
     celcius.innerHTML = ((Fahrenheit.value-32)*(5/9));
       console.log('conerted from Fahrenheit')
     }
+    
+    console.log("convert=complete");
+    
   }
- 
-  console.log("convert=complete");
+
+function reset(){
+  document.querySelector("#Fahrenheit").innerHTML=null;
+  document.querySelector("#celcius").innerHTML=null;
+  document.querySelector("#kelvin").innerHTML=null;
 
 }
-
 
 
 document.getElementById('celcius').onclick = function() {
